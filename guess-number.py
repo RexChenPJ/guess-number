@@ -6,7 +6,11 @@
 
 import random
 
-r = random.randint(1,100) #正確答案
+print('請決定數字範圍: ')
+start = int(input('數字範圍開始值: '))
+end = int(input ('數字範圍結束值: '))
+
+r = random.randint(start,end) #正確答案
 x = 0
 
 while True:
